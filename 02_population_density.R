@@ -1,39 +1,39 @@
 install.packages("spatstat")
 library(spatstat)
-> bei
+bei
 
-> plot(bei)
-> 
-> plot(bei, cex=.2)
-> 
-> plot(bei, cex=.2, pch=19)
-> 
-> bei.extra
+ plot(bei)
+ 
+ plot(bei, cex=.2)
+ 
+ plot(bei, cex=.2, pch=19)
+ 
+ bei.extra
 
 
-> plot(bei.extra)
-> elevation = bei.extra[[1]]
-> plot(elevation2)
+ plot(bei.extra)
+ elevation = bei.extra[[1]]
+ plot(elevation2)
 
-> plot(elevation)
-> 
-> elevation2 = bei.extra[[1]]
-> plot(elevation2)
-> 
-> densitymap = density(bei)
-> plot(densitymap)
-> points(bei, cex=.2)
-> 
-> par(mfrow=c(1,2))
-> 
-> plot(elevation2)
-> plot(densitymap)
-> 
-> par(mfrow=c(2,1))
-> plot(elevation2)
-> plot(densitymap)
-> 
-> dev.off()
+ plot(elevation)
+ 
+ elevation2 = bei.extra[[1]]
+ plot(elevation2)
+ 
+ densitymap = density(bei)
+ plot(densitymap)
+ points(bei, cex=.2)
+ 
+ par(mfrow=c(1,2))
+ 
+ plot(elevation2)
+ plot(densitymap)
+ 
+ par(mfrow=c(2,1))
+ plot(elevation2)
+ plot(densitymap)
+ 
+ dev.off()
 null device 
           1 
 > plot(elevation2)
