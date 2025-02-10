@@ -34,40 +34,38 @@ bei
  plot(densitymap)
  
  dev.off()
-null device 
-          1 
-> plot(elevation2)
-> 
 
-> cl =colorRampPalette(c("red", "orange", "yellow"))(3)
-> plot(densitymap, col=cl)
-> 
-> cl = colorRampPalette(c("red", "orange", "yellow"))(10)
-> 
-> plot(densitymap, col=cl)
-> 
-> cl =colorRampPalette(c("red", "orange","yellow"))(100)
-> plot(densitymap, col=cl)
-> 
-> cln = colorRampPalette(c("purple1", "orchid2", "palegreen3", "paleturquoise"))(100)
-> 
-> plot(densitymap, col=cln)
-> 
-> par(mfrow=c(1,2))
-> 
-> cln = cln = colorRampPalette(c("purple1", "orchid2", "palegreen3", "paleturquoise"))(100)
-> plot(densitymap, col=cln)
-> 
-> clg <- colorRampPalette(c("green4", "green3", "green2", "green1", "green"))(100)
-> plot(densitymap, col=cln)
-> plot(densitymap, col=clg)
-> 
-> par(mfrow=c(1,2))
-> cln = cln = colorRampPalette(c("purple1", "orchid2", "palegreen3", "paleturquoise"))(100)
-> 
-> plot(densitymap, col=cln)
-> 
-> clg <- colorRampPalette(c("green4", "green3", "green2", "green1", "green"))(100)
-> plot(densitymap, col=clg)
-> 
-> dev.off()
+ plot(elevation2)
+ 
+
+ cl =colorRampPalette(c("red", "orange", "yellow"))(3)
+ plot(densitymap, col=cl)
+ 
+ cl = colorRampPalette(c("red", "orange", "yellow"))(10)
+ 
+ plot(densitymap, col=cl)
+ 
+ cl =colorRampPalette(c("red", "orange","yellow"))(100)
+ plot(densitymap, col=cl)
+ 
+ cln = colorRampPalette(c("purple1", "orchid2", "palegreen3", "paleturquoise"))(100)
+ 
+ plot(densitymap, col=cln)
+
+ par(mfrow=c(1,2)) 
+ cln = cln = colorRampPalette(c("purple1", "orchid2", "palegreen3", "paleturquoise"))(100)
+ plot(densitymap, col=cln)
+ 
+ clg <- colorRampPalette(c("green4", "green3", "green2", "green1", "green"))(100)
+ plot(densitymap, col=cln)
+ plot(densitymap, col=clg)
+ 
+ par(mfrow=c(1,2))
+ cln = cln = colorRampPalette(c("purple1", "orchid2", "palegreen3", "paleturquoise"))(100)
+ 
+ plot(densitymap, col=cln)
+ 
+clg <- colorRampPalette(c("green4", "green3", "green2", "green1", "green"))(100)
+ plot(densitymap, col=clg)
+ 
+dev.off()
